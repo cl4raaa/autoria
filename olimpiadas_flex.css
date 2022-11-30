@@ -22,13 +22,51 @@ header p {
 nav {
     display: flex;  
 }
+
 li {
     display: inline-block;
     list-style: none;
     padding: 30px 50px;
 }
-img{
+
+.logo{
     max-height: 70px;
     max-width: 120px;
     margin: 15px;
 }
+
+figcaption {
+    color: #555;
+    padding: 5px;
+    font-size: 12px;
+}
+img {
+    width: 100%;
+}
+article {
+    border:solid #06AA48 1px;
+    margin: 5px;
+    max-width: 360px;
+}
+
+header{
+    color:  #06AA48;
+    font-family: arial;
+    padding: 5px;
+    font-size: 20px;
+}
+
+footer {
+    padding: 10px;
+    background: linear-gradient(to right,  #06AA48, #08d45a);
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
