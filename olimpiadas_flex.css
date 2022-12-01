@@ -13,6 +13,12 @@
     color: azure;
 }
 
+.search-txt{
+
+    max-height: 15px;
+    margin-top: 34px;
+}
+
 header p {
     font-size: 2rem;
     margin-right: auto;
@@ -23,6 +29,7 @@ nav {
     display: flex;  
 }
 
+
 li {
     display: inline-block;
     list-style: none;
@@ -30,9 +37,9 @@ li {
 }
 
 .logo{
-    max-height: 70px;
-    max-width: 120px;
-    margin: 15px;
+    max-height: 80px;
+    max-width: 90px;
+    margin: 10px;
 }
 
 figcaption {
@@ -71,3 +78,46 @@ section {
     margin: 0 auto;
     flex-wrap: wrap;
   }
+
+
+  input[type=checkbox]{
+
+    display: none; 
+}
+
+ .hamburger {  
+display: none;  
+font-size: 24px; 
+user-select: none;
+}
+
+@media (max-width: 768px) {
+.menu {
+display:none;
+position: absolute;
+background-color:teal;
+right: 0;
+left: 0;
+text-align: center;
+padding: 16px 0;
+
+}
+
+.menu li:hover {
+display: inline-block;
+background-color:#4c9e9e;
+transition: 0.3s ease;
+}
+
+.menu li + li {
+    margin-top: 12px;
+}
+    
+input[type=checkbox]:checked ~ .menu{ 
+    display: block;
+}
+    
+.hamburger {
+     display: block;
+}    
+}
