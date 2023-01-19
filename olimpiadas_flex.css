@@ -121,3 +121,12 @@ input[type=checkbox]:checked ~ .menu{
      display: block;
 }    
 }
+
+.dark {
+    background-color: #160040;
+    color: #9A0680;
+}
+.light {
+    background-attachment: #FFF6BD;
+    color: #CEEDC7;
+}
