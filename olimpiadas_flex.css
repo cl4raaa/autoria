@@ -121,12 +121,34 @@ input[type=checkbox]:checked ~ .menu{
      display: block;
 }    
 }
+body {
+    transition: background 0.2s linear;
+}
+body.dark {
+    background-color: #232c35;
+}
+label {
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    height: 26px;
+    width: 50px;
+    transform: scale(1.5);
+}
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
 
-.dark {
-    background-color: #160040;
-    color: #9A0680;
+
+
+input:checked ~ .slider {
+    background-color: var(--ligth);
 }
-.light {
-    background-attachment: #FFF6BD;
-    color: #CEEDC7;
-}
+
+
+
