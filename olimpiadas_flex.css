@@ -150,8 +150,8 @@ body.dark-theme article {
     display: inline-block;
     position: relative;
     transition: all ease-in-out 0.3s;
-    width: 80px;
-    height: 30px;
+    width: 70px;
+    height: 20px;
 }
 .toggle label::after{
     background-color: #444;
@@ -163,8 +163,8 @@ body.dark-theme article {
     left: 2px;
     top: 2px;
     transition: all ease-in-out 0.3s;
-    width: 23px;
-    height: 23px;
+    width: 16px;
+    height: 16px;
 }
 .toggle input[type=checkbox]:checked ~ label{
     background-color:#fafafa;
